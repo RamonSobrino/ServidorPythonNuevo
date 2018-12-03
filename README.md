@@ -6,7 +6,7 @@ En el directorio del proyecto ejecutar las siguiente instrucción:
 
 1. Activar el entorno virtual
    - Ir a la carpeta /venv/Scripts/
-   - Ejecutar activate
+   - Ejecutar ``` activate ```
    
 2. Desde la carpeta principal
   - Ejecutar ``` set FLASK_APP=__init__.py ```
