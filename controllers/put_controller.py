@@ -15,7 +15,7 @@ def delete_local_id(number):
     for dato in datos:
         if dato.type == 'LocalBusiness' and dato.id == number :
             dato.actualizar(nuevo_objeto)
-            return 'PUT: LocalBusiness'
+            return 'LocalBusiness actualizado'
     return 'Objeto no encontrado', 400
 
 
@@ -26,7 +26,7 @@ def delete_food_id(number):
     for dato in datos:
         if dato.type == 'FoodEstablishment' and dato.id == number:
             dato.actualizar(nuevo_objeto)
-            return 'PUT: FoodEstablishment'
+            return 'FoodEstablishment actualizado'
     return 'Objeto no encontrado', 400
 
 

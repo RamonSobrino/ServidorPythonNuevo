@@ -24,9 +24,9 @@ def post_local():
         objeto = LocalBusiness(nuevo_objeto)
         objeto.id = nuevo_id
         datos.append(objeto)
-        return 'POST: LocalBusiness bien anadido'
+        return 'LocalBusiness bien agregado'
     else:
-        return 'POST: LocalBusiness Mal anadido', 400
+        return 'LocalBusiness Mal agregado', 400
 
 
 @routes.route( '/FoodEstablishment', methods=['POST'] )
@@ -42,7 +42,7 @@ def post_food():
         objeto = FoodEstablishment( nuevo_objeto )
         objeto.id = nuevo_id
         datos.append( objeto )
-        return 'POST: FoodEstablishment bien anadido'
+        return 'FoodEstablishment bien agregado'
     else:
-        return 'POST: FoodEstablishment Mal anadido', 400
+        return 'FoodEstablishment Mal agregado', 400
 

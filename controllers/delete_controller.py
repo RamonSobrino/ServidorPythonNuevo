@@ -12,7 +12,7 @@ def delete_local_id(number):
     for dato in datos:
         if dato.type == 'LocalBusiness' and dato.id == number :
             datos.remove(dato)
-            return 'DELETE: LocalBusiness'
+            return 'LocalBusiness borrado'
     return 'Objeto no encontrado', 400
 
 
@@ -22,7 +22,7 @@ def delete_food_id(number):
     for dato in datos:
         if dato.type == 'FoodEstablishment' and dato.id == number:
             datos.remove(dato)
-            return 'DELETE: FoodEstablishment'
+            return 'FoodEstablishment borrado'
     return 'Objeto no encontrado', 400
 
 
