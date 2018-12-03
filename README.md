@@ -2,9 +2,16 @@
 Servidor en Python que responde a varios tipos de peticiones
 
 ## Arranque 
-En el directorio del proyecto ejecutar la siguiente instrucción:
+En el directorio del proyecto ejecutar las siguiente instrucción:
 
- flask run --host=0.0.0.0 --port=3001
+1. Activar el entorno virtual
+   - Ir a la carpeta /venv/Scripts/
+   - Ejecutar activate
+2. Desde la carpeta principal
+  - Ejecutar set FLASK_APP=__init__.py
+  - Ejecutar set FLASK_ENV=development
+3.Desde la carpeta principal ejecutar
+  flask run --host=0.0.0.0 --port=3002
 
 ## Tipos de entidades
 Hay dos tipos de entidades:
