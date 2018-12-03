@@ -9,8 +9,8 @@ En el directorio del proyecto ejecutar las siguiente instrucción:
    - Ejecutar ``` activate ```
    
 2. Desde la carpeta principal
-  - Ejecutar ``` set FLASK_APP=__init__.py ```
-  - Ejecutar ``` set FLASK_ENV=development ```
+   - Ejecutar ``` set FLASK_APP=__init__.py ```
+   - Ejecutar ``` set FLASK_ENV=development ```
   
 3.Desde la carpeta principal ejecutar
  ``` flask run --host=0.0.0.0 --port=3002 ```
