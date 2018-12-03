@@ -4,7 +4,7 @@ Servidor en Python que responde a varios tipos de peticiones
 ## Arranque 
 En el directorio del proyecto ejecutar la siguiente instrucción:
 
- flask runn --host=0.0.0.0 --port=3001
+ flask run --host=0.0.0.0 --port=3001
 
 ## Tipos de entidades
 Hay dos tipos de entidades:
